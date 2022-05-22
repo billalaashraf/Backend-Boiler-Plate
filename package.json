@@ -1,0 +1,43 @@
+{
+  "name": "backend-boiler-plate",
+  "version": "1.0.0",
+  "description": "A simple boilder plate tempalte for Overnightjs and TypeScript based Backend",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@overnightjs/core": "^1.7.6",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "http-status-codes": "^2.2.0",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc & node .",
+    "dev": "tsc -w & nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billalaashraf/Backend-Boiler-Plate.git"
+  },
+  "keywords": [
+    "Overnight",
+    "node",
+    "express",
+    "typeORM"
+  ],
+  "author": "Bilal Ashraf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billalaashraf/Backend-Boiler-Plate/issues"
+  },
+  "homepage": "https://github.com/billalaashraf/Backend-Boiler-Plate#readme"
+}
